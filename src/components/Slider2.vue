@@ -86,14 +86,12 @@ function resetInterval() {
 
 onMounted(() => {
     startInterval();
-    window.addEventListener('resize', handleResize);
 });
 
 onUnmounted(() => {
     if (intervalId) {
         clearInterval(intervalId);
     }
-    window.removeEventListener('resize', handleResize);
 });
 </script>
 
