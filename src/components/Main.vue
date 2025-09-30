@@ -31,7 +31,7 @@
           {{ list.text }}
         </div>
       </div>
-      <Button />
+      <Button style="margin-top: 30px;" />
       <div class="text">
         Перезвоним, произведём расчёт <strong>со скидкой 20%</strong> и ответим
         на все вопросы
